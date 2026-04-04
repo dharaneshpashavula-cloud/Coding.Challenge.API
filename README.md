@@ -143,4 +143,4 @@ The author reports approximately: 3 hours
 
 Contact
 -------
-This is a coding exercise submission. For questions, reply to the submission contact.
+This is a coding exercise submission. For questions, please contact Dharanesh.pashavula@gmail.com.
