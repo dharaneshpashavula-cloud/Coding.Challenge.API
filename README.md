@@ -137,10 +137,6 @@ Notes and improvements made
 - On startup the application attempts to apply EF Core migrations via `Database.Migrate()` and falls back to `EnsureCreated()` for easy reviewer runs.
 - Included a `Dockerfile` to run the service in a container.
 
-Time spent
-----------
-The author reports approximately: 3 hours
-
 Contact
 -------
 This is a coding exercise submission. For questions, please contact Dharanesh.pashavula@gmail.com.
