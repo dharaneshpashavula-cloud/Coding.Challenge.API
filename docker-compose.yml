@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  analytics-api:
+    build: ./Coding.Challenge.API
+    ports:
+      - "5000:80"
+      - "5001:443"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - ConnectionStrings__Sqlite=Data Source=/data/analytics.db
+    volumes:
+      - ./data:/data
+    restart: unless-stopped
